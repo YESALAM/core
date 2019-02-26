@@ -7,13 +7,13 @@
         
         <div id="content" class="loading-progress">
         </div>
-        <div class="footer">
+        <!-- <div class="footer">
             <a href="https://docs.c9.io">Documentation</a> | 
             <a href="http://status.c9.io">Server Status</a> | 
             <% if (!standalone) { %>
                 <a href="http://support.c9.io">Support</a>
             <% } %>
-        </div>
+        </div> -->
     </div>
 </div>
 <script>
@@ -21,18 +21,13 @@
     document.body.className = "loading " + loadingIde.className;
 
     var messages = [
-        "Share your code by sharing your workspace URL.",
         "Each workspace is its own Ubuntu virtual machine.",
-        "Run 'dpkg -l' in the terminal to see all packages installed.",
-        "Remember to run your code on port 8080, 8081, or 8082.",
-        "Use the Collaborate panel when collaborating for optimal teamwork.",
         "It's better up here.",
         "Happy coding!",
         "Everything as you left it.",
         "Thank you Ada Lovelace!",
         "POST /desktop/era",
         "Try using VIM mode!",
-        "Not your grandmother's IDE",
         "Literally makes your laptop cooler"
     ];
     
